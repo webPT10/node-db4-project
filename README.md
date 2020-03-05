@@ -50,6 +50,7 @@ Build the following endpoints. Write any additional data access helpers as neede
 - npm install
 - npm install knex sqlite3
 - NPX knex init > creates knexfile.js
+    - check/update migration directory path
 - npm install express --save
 - npm install --save-dev nodemon
 - package.json > add "server": "nodemon index.js", "start": "node index"
