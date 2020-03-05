@@ -44,3 +44,13 @@ Build the following endpoints. Write any additional data access helpers as neede
 - `GET /api/recipes/:id/shoppingList`: a list of ingredients and quantites for a single recipe
 - `GET /api/recipes/:id/instructions`: a correctly ordered list of how to prepare a single recipe
 - `GET /api/ingredients/:id/recipes`: all recipes in the system that utilize a single ingredient 
+
+## STEPS 
+- create npm package? > npm init -y
+- npm install
+- npm install knex sqlite3
+- npm install express --save
+- npm install --save-dev nodemon
+- package.json > add "server": "nodemon index.js", "start": "node index"
+- npm install dotenv
+- 
