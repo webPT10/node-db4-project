@@ -16,7 +16,7 @@ exports.up = async function(knex) {
     await knex.schema.createTable("quantity", (table) => {
         table.increments("id")
         table.float("amount").notNull()
-    })
+    }) 
 
     await knex.schema.createTable("recipes_ingredients", (table) => {
         table.integer("recipes_id")
