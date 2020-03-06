@@ -58,3 +58,5 @@ Build the following endpoints. Write any additional data access helpers as neede
 - 
 - Migrations
 - npx knex migrate:make initial
+- npx knex migrate:latest
+
