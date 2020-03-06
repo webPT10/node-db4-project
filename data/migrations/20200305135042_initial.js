@@ -26,6 +26,10 @@ exports.up = async function(knex) {
         table.integer("ingredients_id")
         .references("id")
         .inTable("ingredients")
+
+        table.integer("quantity_amount")
+        .references("id")
+        .inTable("quantity")
         //since this table doesn't need an ID column, we can make
         // the primary key a combination of the two columns
         table.primary(["recipes_id", "ingredients_id"])
